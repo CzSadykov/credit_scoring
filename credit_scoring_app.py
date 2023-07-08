@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyOisUVpXt9L/Y3VLaetrs47"
+      "authorship_tag": "ABX9TyPUYxZ3AtHl6q45hSpsQfin"
     },
     "kernelspec": {
       "name": "python3",
@@ -52,26 +52,13 @@
     {
       "cell_type": "code",
       "source": [
-        "%%writefile credit_scoring_app.py\n",
         "import streamlit as st"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "353gb1_KWXPQ",
-        "outputId": "7660b39a-c114-4d11-e97b-e049f413ae37"
+        "id": "353gb1_KWXPQ"
       },
-      "execution_count": 42,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "Overwriting credit_scoring_app.py\n"
-          ]
-        }
-      ]
+      "execution_count": 53,
+      "outputs": []
     },
     {
       "cell_type": "code",
@@ -82,7 +69,7 @@
       "metadata": {
         "id": "9pk62mZyWYqX"
       },
-      "execution_count": 43,
+      "execution_count": 54,
       "outputs": []
     },
     {
@@ -95,9 +82,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "zrOFYgY-fJHE",
-        "outputId": "80259a7f-d2a2-4479-f362-afed949edbe6"
+        "outputId": "f2e40edb-230c-414c-9722-13b74f07457f"
       },
-      "execution_count": 48,
+      "execution_count": 55,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -107,7 +94,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 48
+          "execution_count": 55
         }
       ]
     },
