@@ -24,10 +24,10 @@ tab1.write('Type in any values to get your prediction')
 #default values
 
 age = 21
-balance2credit_ratio = 0.0
-monthly_income = 0.0
-spending2income_ratio = 0.0
-open_debt = 0
+balance2credit_ratio = 0.5
+monthly_income = 1000.0
+spending2income_ratio = 0.5
+open_debt = 1
 count_dependents = 0.0
 count_dlq_30_59_days = 0
 count_dlq_60_89_days = 0
