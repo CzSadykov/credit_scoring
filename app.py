@@ -39,7 +39,7 @@ input_balance2credit_ratio = tab1.number_input("Customer's balance to credit lim
 min_value=0.0,
 step=0.0,
 max_value=1.0,
-value=monthly_income)
+value=balance2credit_ratio)
 
 
 input_monthly_income = tab1.number_input('Monthly income (in $)',
@@ -53,8 +53,6 @@ min_value=0.0,
 step=0.0,
 max_value=2.0,
 value=spending2income_ratio)
-
-input_spending2income_ratio = input_spending2income_ratio / 100
 
 input_open_debt = tab1.number_input('Number of open loans and credit cards',
 min_value=0,
