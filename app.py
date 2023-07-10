@@ -6,7 +6,7 @@ import pickle
 import plotly.express as px
 import matplotlib.pyplot as plt
 
-with open('/content/model/best_lgb.pkl', 'rb') as f:
+with open('model/best_lgb.pkl', 'rb') as f:
     model = pickle.load(f)
 
 st.set_page_config(
