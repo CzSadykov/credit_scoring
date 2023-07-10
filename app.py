@@ -11,7 +11,7 @@ with open('model/best_lgb.pkl', 'rb') as f:
 
 st.set_page_config(
   page_title='Credit scoring dummy service',
-  page_icon='🔮')
+  page_icon='💸')
 
 st.header('💸 Credit scoring dummy service 💸')
 st.write('Made by CzSadykov. Just for fun.')
